@@ -6,9 +6,9 @@
       <class name="com.devkey.company.ui_automation_practice.tests.HerokuappHomePageVerifcation">
         <methods>
           <include name="initialiseReporting"/>
+          <include name="homePageTitleVerification"/>
           <include name="initPageObjects"/>
           <include name="tearDown"/>
-          <include name="homePageWelcomeMessageVerification"/>
           <include name="closeExtentReport"/>
         </methods>
       </class> <!-- com.devkey.company.ui_automation_practice.tests.HerokuappHomePageVerifcation -->

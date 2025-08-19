@@ -26,7 +26,7 @@ public class HerokuappHomePageVerifcation extends BaseClass {
 
 	@Test
 	public void homePageTitleVerification() throws InterruptedException {
-		String expectedTitle = "Th Internet";
+		String expectedTitle = "The Internet";
 
 		String actualTitle = herokuappHomePage.getTitle();
 
